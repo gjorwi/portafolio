@@ -19,7 +19,7 @@ export default function Home() {
     <div className='grid md:grid-cols-12 h-full'>
       <div className='col md:col-span-7 w-full flex flex-col justify-center items-center md:items-start lg:items-end lg:pr-10'>
         <div className='lg:w-9/12 sm:w-full flex flex-col '>
-          <h1 className={poppinsFullBold.className+' text-[2.5rem]'}>Hola, soy Jorwi García.</h1>
+          <h1 className={poppinsFullBold.className+' text-[2.2rem]'}>Hola, soy Jorwi García.</h1>
           <p className={poppinsMediaBold.className+' text-xl color_primary mb-8'}>Desarrollador FULLSTACK</p>
           <p className={poppinsMediaRegular.className}>Desarrollador de software con experiencia en diseño, instalación, pruebas y mantenimiento de sistemas de software. Dominio de varias plataformas, lenguajes y sistemas integrados. Experiencia en las herramientas y procedimientos de desarrollo más vanguardistas. Capaz de autogestión, eficaz en proyectos independientes. Buenas habilidades de colaboración dentro de un equipo productivo.</p>
           <div className='w-full flex justify-start gap-8 mt-10'>
