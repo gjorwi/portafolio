@@ -1,0 +1,10 @@
+.active_link{
+    color: rgb(0, 217, 255);
+}
+.hoverColor{
+    color: white;
+    cursor: pointer;
+}
+.hoverColor:hover{
+    color: rgb(0, 217, 255);
+}

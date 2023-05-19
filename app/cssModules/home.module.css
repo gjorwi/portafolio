@@ -1,0 +1,6 @@
+.border_small{
+    border: 1px solid rgb(0, 217, 255);
+}
+.shadow_png{
+    filter: drop-shadow(-2px 2px 15px rgba(4, 206, 233, 0.205));
+}
