@@ -11,10 +11,10 @@ export default function Nav() {
   return (
     <>
       <nav className={poppins.className+' flex justify-between py-4 px-6'}>
-        <div className='flex items-center gap-2 text-3xl text-gray-300'>
+        <div className='flex items-center gap-2 text-3xl text-white'>
           <VscAccount/>
-          <h2 className='font-bold text-xl color_primary'>
-            JORWI GARCIA
+          <h2 className='font-bold text-3xl color_primary'>
+            JORWI <span className='text-white'>.</span>
           </h2>
         </div>
         <div >

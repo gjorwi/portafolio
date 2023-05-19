@@ -19,9 +19,12 @@ export default function RootLayout({ children }) {
         <div className={layoutStyle.bg_dark+' bg-gradient-to-t from-[#081b29] to-[#00d9ff] flex flex-col justify-center items-center min-h-screen p-6'}>
           <div className={layoutStyle.bg_base+' w-[95vw] h-[92vh] bg-green-500 rounded-[6vh] overflow-hidden p-6'}>
             <Nav></Nav>
-            <div className='h-[80vh] w-full text-white p-6'>
+            <div className='h-[78vh] w-full text-white p-6'>
               {children}
             </div>
+            <footer className='w-full p-2 flex justify-end pr-8 text-gray-400 text-sm'>
+              CopyRight - 2023
+            </footer>
           </div>
         </div>
       </body>

@@ -20,9 +20,9 @@ export default function Home() {
       <div className='col md:col-span-7 w-full flex flex-col justify-center items-center md:items-start lg:items-end lg:pr-10'>
         <div className='lg:w-9/12 sm:w-full flex flex-col '>
           <h1 className={poppinsFullBold.className+' text-[2.5rem]'}>Hola, soy Jorwi García.</h1>
-          <p className={poppinsMediaBold.className+' text-xl color_primary mb-6'}>Desarrollador FULLSTACK</p>
+          <p className={poppinsMediaBold.className+' text-xl color_primary mb-8'}>Desarrollador FULLSTACK</p>
           <p className={poppinsMediaRegular.className}>Desarrollador de software con experiencia en diseño, instalación, pruebas y mantenimiento de sistemas de software. Dominio de varias plataformas, lenguajes y sistemas integrados. Experiencia en las herramientas y procedimientos de desarrollo más vanguardistas. Capaz de autogestión, eficaz en proyectos independientes. Buenas habilidades de colaboración dentro de un equipo productivo.</p>
-          <div className='w-full flex justify-start gap-8 mt-8'>
+          <div className='w-full flex justify-start gap-8 mt-10'>
             <button className={poppinsMediaBold.className+' px-5 py-3 bg_primary rounded-md color_base'}>
               Acerca de mi
             </button>
@@ -33,8 +33,8 @@ export default function Home() {
         </div>
       </div>
       <div className='col md:col-span-5 hidden md:flex'>
-        <div className={homeStyle.shadow_png+' w-[110%] h-full relative pt-[100%] '}>
-          <Image src={'/foto2.png'} fill className="h-full top-0 left-0 object-cover opacity-90" alt="" />
+        <div className={' w-[110%] h-full relative pt-[100%] '}>
+          <Image src={'/foto2.png'} fill className="h-full top-0 left-0 object-cover opacity-80" alt="" />
         </div>
       </div>
     </div>
