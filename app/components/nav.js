@@ -23,7 +23,7 @@ export default function Nav() {
               Home
             </li>
             <li className={navStyle.hoverColor}>
-              Acerca de Mi
+              Acerca
             </li>
             <li className={navStyle.hoverColor}>
               Portafolio
