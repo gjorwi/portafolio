@@ -2,8 +2,7 @@ import homeStyle from './cssModules/home.module.css'
 import LinkButton from './components/linkButton';
 import MyFoto from './components/myFoto';
 import myFonts from '../utilidades/fuentes'
-
-export default async function Home() {
+export default async function Home () {
   return (
     <>
       <div className='grid md:grid-cols-12 h-full'>
@@ -15,9 +14,6 @@ export default async function Home() {
             <div className='w-full flex justify-start gap-8 mt-10'>
               <LinkButton classPer={'bg_primary'} colorPer="color_base" text="Acerca de mi" enlace="/acerca"/>
               <LinkButton classPer={homeStyle.border_small} colorPer="color_white" text="Contactame" enlace="/contactame"/>
-              {/* <button className={poppinsMediaBold.className+' '+homeStyle.border_small+' px-5 py-3 bg_base  rounded-md color_primary'}>
-                Contactame
-              </button> */}
             </div>
           </div>
         </div>
