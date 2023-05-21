@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={poppins.className+' '+layoutStyle.selectFalse}>
         <div className={layoutStyle.bg_dark+' bg-gradient-to-t from-[#081b29] to-[#00d9ff] flex flex-col justify-center items-center min-h-screen p-6'}>
-          <div className={layoutStyle.bg_base+' w-[95vw] h-[92vh] bg-green-500 relative rounded-[6vh] overflow-hidden p-6'}>
+          <div className={layoutStyle.bg_base+' w-[95vw] h-[92vh] relative rounded-[6vh] overflow-hidden p-6'}>
             <Nav></Nav>
             <div className='h-[78vh] w-full text-white p-6'>
               {children}
