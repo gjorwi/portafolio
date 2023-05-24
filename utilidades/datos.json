@@ -1,0 +1,23 @@
+
+{
+    "items":[
+        {"enlace":"/","text":"Home"},
+        {"enlace":"/acerca","text":"Acerca"},
+        {"enlace":"/proyectos","text":"Projectos"},
+        {"enlace":"/contactame","text":"Contactame"}
+    ],
+    "skills":[
+        "PHP",
+        "JAVASCRIPT",
+        "HTML",
+        "CSS",
+        "REACT",
+        "NEXTJS",
+        "IONIC",
+        "NODEJS",
+        "EXPRESSJS",
+        "MONGODB",
+        "MYSQL",
+        "POSTGRESQL"
+    ]
+}

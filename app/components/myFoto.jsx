@@ -4,7 +4,7 @@ import { useState } from "react"
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 
-export default function MyFoto() {
+export default function MyFoto({margin,foto}) {
   const [loadingImg,setLoadingImg]=useState(false)
   const terminarCarga = () =>{
     setLoadingImg(true)
@@ -20,12 +20,12 @@ export default function MyFoto() {
           } 
         <div className={' w-[110%] h-full relative pt-[100%] '}>
           <Image 
-            src={'/foto2.png'} 
+            src={foto} 
             onLoadingComplete={(img) => console.log(img.classList.remove('opacity-0'))} 
             fill 
-            priority={true} 
+            priority="true"
             onLoad={(e) => terminarCarga()} 
-            className="top-0 left-0 object-cover transition-opacity duration-[2s] opacity-0" alt="" />
+            className={margin+" object-cover transition-opacity duration-[2s] opacity-0"} alt="" />
         </div>
       </div>
     </>
