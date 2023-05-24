@@ -14,12 +14,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={myFonts('normal').className}>
+      <body className={myFonts('normal').className+' p-0 m-0'}>
         
         <div className={layoutStyle.bg_dark+' bg-gradient-to-t z-10 from-[#081b29] to-[#00d9ff] flex flex-col justify-center items-center min-h-screen p-6'}>
-          <div className={layoutStyle.bg_base+' w-[95vw] h-[92vh] relative rounded-[3vh]  md:rounded-[6vh] overflow-hidden p-6'}>
+          <div className={layoutStyle.bg_base+' w-[95vw] h-[92vh] relative rounded-[3vh] flex flex-col md:rounded-[6vh] overflow-hidden'}>
             <Nav></Nav>
-            <div className='h-[78vh] w-full text-white p-1 md:p-6 overflow-x-hidden overflow-y-auto pb-8'>
+            <div className='h-full w-full text-white overflow-x-hidden overflow-y-auto'>
               {children}
             </div>
             
