@@ -17,7 +17,7 @@ export default async function Home () {
             </div>
           </div>
         </div>
-        <div className='col md:col-span-5 top-0 left-0 w-full h-full absolute md:static md:flex  opacity-30 md:opacity-100'>
+        <div className='col md:col-span-5 top-0 left-0 w-full h-full absolute md:static overflow-hidden md:flex  opacity-30 md:opacity-100'>
           <MyFoto foto="/foto2.png" margin={'-ml-4 md:-ml-2'}/>
         </div>
       </div>
