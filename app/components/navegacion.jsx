@@ -4,14 +4,14 @@ import { usePathname } from 'next/navigation';
 import datos from '@/utilidades/datos'
 import navStyle from '@/cssModules/nav.module.css'
 
-export default function Navegacion({className,changeMenuVal}) {
+export default function Navegacion({className,itemClasName,changeMenuVal}) {
   const pathName=usePathname()
   return (
     <>
       <div>
         <ul className={'text-lg text-white '+className}>
           {datos.items.map(({text,enlace}) =>(
-            <li key={enlace} className={(enlace==pathName?navStyle.active_link:'')+' hoverColor'}>
+            <li key={enlace} className={(enlace==pathName?navStyle.active_link:'')+' hoverColor '+itemClasName}>
               <Link href={enlace} as={enlace} onClick={()=>changeMenuVal()}> {text}</Link>
             </li>
           ))}
