@@ -6,13 +6,10 @@ export default function Portafolio() {
 
   return (
     <>
-      <div className="h-full">
+      <div className="h-full flex flex-col items-center ">
         <h1 className={myFonts('bold').className+" text-2xl"}>Portafolio</h1>
-        <div className="grid grid-cols-2 gap-6 mt-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 w-full  justify-center items-center gap-6 mt-2">
           <CardProyjects/>
-          <div>
-            {/* hola */}
-          </div>
         </div>
       </div>
     </>

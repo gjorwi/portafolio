@@ -22,8 +22,8 @@ export default function Contactame() {
               <h1>INFORMACIÓN</h1>
             </div>
             {contacts.map(contact => (
-              <div key={contact.text} className='flex items-center gap-1'>
-                <contact.icon className='text-2xl'/><p>{contact.text}: <span className='color_primary'>{contact.value}</span></p>
+              <div key={contact.text} className='flex flex-col md:flex-row items-center gap-1 '>
+                <contact.icon className='text-2xl'/><p className='text-center md:text-left'>{contact.text}: <span className='color_primary'>{contact.value}</span></p>
               </div>
             ))}
           </div>

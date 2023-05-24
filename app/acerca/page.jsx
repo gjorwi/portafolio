@@ -15,9 +15,9 @@ export default function Acerca() {
             </div>
           </div>
           <div className="w-full md:w-3/5 flex flex-col justify-center items-center">
-            <h1 className={myFonts('bold').className+' text-3xl md:text-[2.2rem]'}>Hola, soy Jorwi García.</h1>
-            <p className={myFonts('midBold').className+' text-base md:text-lg color_primary mb-4'}>Desarrollador FULLSTACK</p>
-            <p className={myFonts('normal').className+' text-sm md:text-base text-gray-400'}>
+            <h1 className={myFonts('bold').className+' text-3xl md:text-[2.2rem] text-center md:text-left'}>Hola, soy Jorwi García.</h1>
+            <p className={myFonts('midBold').className+' text-base md:text-lg color_primary mb-4 text-center md:text-left'}>Desarrollador FULLSTACK</p>
+            <p className={myFonts('normal').className+' text-sm md:text-base text-gray-400 text-center md:text-left'}>
               Desarrollador de software con experiencia en diseño, instalación, pruebas y mantenimiento 
               de sistemas de software. Dominio de varias plataformas, lenguajes y sistemas integrados.
               Experiencia en las herramientas y procedimientos de desarrollo más vanguardistas. Capaz 
