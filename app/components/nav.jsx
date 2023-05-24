@@ -1,8 +1,15 @@
+'use client'
 import { VscAccount } from "react-icons/vsc";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Navegacion from './navegacion';
+import NavMobil from "./navMobil";
+import { useState } from "react";
 
-export default function Nav() {
+export default function Nav({showMenu}) {
+  const [menuMovil,setMenuMovil]=useState(false)
+  const changeMenuVal =()=>{
+    setMenuMovil(!menuMovil)
+  }
   return (
     <>
       <nav className={' flex md:flex-row flex-col justify-between py-4 px-6'}>
@@ -14,11 +21,14 @@ export default function Nav() {
             </h2>
           </div>
           <div className='flex md:hidden'>
-            <GiHamburgerMenu />
+            {menuMovil&&
+              <NavMobil changeMenuVal={changeMenuVal} className={'z-[400]'}/>
+            }
+            <GiHamburgerMenu onClick={()=>changeMenuVal()}/>
           </div>
         </div>
         <div >
-          <Navegacion/>
+          <Navegacion className={'hidden md:flex gap-4'}/>
         </div>
       </nav>
     </>

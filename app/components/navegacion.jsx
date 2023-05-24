@@ -4,15 +4,15 @@ import { usePathname } from 'next/navigation';
 import datos from '@/utilidades/datos'
 import navStyle from '@/cssModules/nav.module.css'
 
-export default function Navegacion() {
+export default function Navegacion({className,changeMenuVal}) {
   const pathName=usePathname()
   return (
     <>
       <div>
-        <ul className='md:flex gap-4 text-lg text-white hidden '>
+        <ul className={'text-lg text-white '+className}>
           {datos.items.map(({text,enlace}) =>(
             <li key={enlace} className={(enlace==pathName?navStyle.active_link:'')+' hoverColor'}>
-              <Link href={enlace} as={enlace} > {text}</Link>
+              <Link href={enlace} as={enlace} onClick={()=>changeMenuVal()}> {text}</Link>
             </li>
           ))}
         </ul>

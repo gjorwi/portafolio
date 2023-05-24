@@ -45,3 +45,6 @@
 .border_small{
   border: 1px solid rgb(0, 217, 255);
 }
+.bg_backMenu{
+  background-color: rgba(0, 0, 0,0.4);
+}
