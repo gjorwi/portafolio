@@ -10,8 +10,8 @@ export default function CardProyjects () {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-2 bg-slate-900 sm:w-8/12 md:w-full rounded-xl">
-        <div className="p-6 overflow-hidden">
-            <MyFoto margin="-ml-4 md:-ml-2" foto='/fundaCapt.png'/>
+        <div className="w-full p-6 overflow-hidden ">
+            <MyFoto margin="" foto='/fundaCapt.png'/>
         </div>
         <div className="px-2 pt-6 flex flex-col ">
           <h1 className={myFonts('midBold').className+" color_primary text-xl text-center md:text-left"}>Sistema de Gestión y Control Médico</h1>
@@ -25,7 +25,7 @@ export default function CardProyjects () {
             <TbBrandHtml5/>
             <TbBrandJavascript/>
           </div>
-          <div className='flex items-center justify-end h-full '>
+          <div className='flex items-center justify-end h-full p-2'>
             <LinkButton enlace="https://fundamutual.vercel.app" text="Ver" classPer={'border_small md:py-1 sm:py-1'} colorPer={'text-white'}/>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function MyFoto({margin,foto}) {
               <AiOutlineLoading3Quarters className={`loaderIcon`} />
             </div>
           } 
-        <div className={' w-[110%] h-full relative pt-[100%] '}>
+        <div className={' w-full h-full relative pt-[100%] '}>
           <Image 
             src={foto} 
             onLoadingComplete={(img) => console.log(img.classList.remove('opacity-0'))} 
