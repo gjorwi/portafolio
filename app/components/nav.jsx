@@ -14,7 +14,7 @@ export default function Nav({showMenu}) {
     <>
       <nav className={' flex md:flex-row flex-col justify-between py-4 px-6'}>
         <div className='flex justify-between items-center gap-2 text-3xl text-white'>
-          <div className='flex'>
+          <div className='flex '>
             <VscAccount className="mr-2"/>
             <h2 className='font-bold text-3xl color_primary'>
               JORWI <span className='text-white'>.</span>
@@ -28,7 +28,7 @@ export default function Nav({showMenu}) {
           </div>
         </div>
         <div >
-          <Navegacion className={'hidden md:flex gap-4'}/>
+          <Navegacion changeMenuVal={changeMenuVal} className={'hidden md:flex gap-4'}/>
         </div>
       </nav>
     </>

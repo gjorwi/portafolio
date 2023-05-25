@@ -48,3 +48,8 @@
 .bg_backMenu{
   background-color: rgba(0, 0, 0,0.4);
 }
+.primary_gradient{
+  background: rgb(31,163,167);
+  background: radial-gradient(circle, rgba(31,163,167,1) 0%, rgba(22,197,193,0.47942927170868344) 0%, rgba(0,241,255,0) 100%);
+  filter:blur(450px)
+}

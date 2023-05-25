@@ -1,7 +1,6 @@
 import myFonts from "@/utilidades/fuentes";
 import CardProyjects from "../components/cardProjects";
 
-
 export default function Portafolio() {
 
   return (

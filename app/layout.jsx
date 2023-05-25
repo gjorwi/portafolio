@@ -18,7 +18,8 @@ export default function RootLayout({ children }) {
         
         <div className={layoutStyle.bg_dark+' bg-gradient-to-t z-10 from-[#081b29] to-[#00d9ff] flex flex-col justify-center items-center min-h-screen p-6'}>
           <div className={layoutStyle.bg_base+' w-[95vw] h-[92vh] relative rounded-[3vh] flex flex-col md:rounded-[6vh] overflow-hidden'}>
-            <Nav></Nav>
+            <div className='w-[50%] h-[50%] z-5 absolute top-0 primary_gradient'/>
+            <span className='relative z-[500] py-4 px-6'><Nav></Nav></span>
             <div className='h-full w-full text-white overflow-x-hidden overflow-y-auto'>
               {children}
             </div>

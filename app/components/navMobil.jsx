@@ -1,4 +1,3 @@
-import { VscAccount } from "react-icons/vsc";
 import { IoIosArrowBack } from "react-icons/io";
 import Navegacion from './navegacion';
 

@@ -1,6 +1,5 @@
 import MyFoto from './myFoto'
 import myFonts from "@/utilidades/fuentes";
-import datos from '@/utilidades/datos'
 import {TbBrandNextjs, TbBrandCss3,TbBrandHtml5,TbBrandJavascript} from 'react-icons/tb'
 import {SiMongodb} from 'react-icons/si'
 import {FaNodeJs} from 'react-icons/fa'
